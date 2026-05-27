@@ -1,0 +1,24 @@
+{
+  "name": "freeregexapp",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "scripts": {
+    "dev": "pnpm --filter @regex/web dev",
+    "build": "pnpm --filter @regex/web build",
+    "preview": "pnpm --filter @regex/web preview",
+    "typecheck": "pnpm --filter @regex/web exec tsc -b",
+    "test": "pnpm --filter @regex/web test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeappstore-online/regex.git"
+  }
+}
