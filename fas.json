@@ -1,0 +1,6 @@
+{
+  "appId": "regex",
+  "applicationRoot": "web",
+  "outputPath": "web/dist",
+  "buildCommand": "pnpm build"
+}
